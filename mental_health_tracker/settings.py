@@ -27,7 +27,7 @@ import os
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "cahya-bagus-mentalhealthtrackerfix.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "cahya-bagus-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -132,5 +132,5 @@ else:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://cahya-bagus-mentalhealthtrackerfix.pbp.cs.ui.ac.id/",
-                        "https://cahya-bagus-mentalhealthtrackerfix.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://cahya-bagus-mentalhealthtracker.pbp.cs.ui.ac.id/",
+                        "https://cahya-bagus-mentalhealthtracker.pbp.cs.ui.ac.id/"]
